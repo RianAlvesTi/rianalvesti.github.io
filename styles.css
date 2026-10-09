@@ -13,3 +13,24 @@
 .button-outline-dark{border:1px solid #112335;color:#112335}
 .button-outline-dark:hover{background:#e7fff2}
 @media (max-width:760px){.contact-actions{width:100%}.contact-actions .button{flex:1 1 180px}}
+
+
+/* Galeria ampliada: acessível por mouse, toque e teclado */
+.project-zoom{display:block;width:100%;height:100%;border:0;background:transparent;padding:0;cursor:zoom-in;overflow:hidden}
+.project-zoom img{width:100%;height:100%;object-fit:contain}
+.project-zoom:focus-visible{outline:3px solid #17775c;outline-offset:-3px}
+.project-lightbox{color:#f7f9fa;background:#111a2c;border:1px solid #4a6171;border-radius:18px;padding:0;width:min(960px,calc(100vw - 28px));max-height:calc(100dvh - 28px);box-shadow:0 20px 90px rgba(0,0,0,.65);overscroll-behavior:contain}
+.project-lightbox::backdrop{background:rgba(2,7,15,.86);backdrop-filter:blur(5px)}
+.lightbox-panel{display:flex;flex-direction:column;max-height:calc(100dvh - 30px);min-height:0}
+.lightbox-bar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:17px 22px;border-bottom:1px solid rgba(255,255,255,.12)}
+.lightbox-bar h2{font-size:clamp(17px,2.4vw,22px);letter-spacing:-.3px;font-weight:750;margin:0}
+.lightbox-close{color:#fff;background:#28354a;border:1px solid rgba(255,255,255,.12);border-radius:10px;min-width:42px;min-height:42px;font-size:19px}
+.lightbox-close:hover{background:#41536b}
+.lightbox-media{display:flex;justify-content:center;align-items:center;min-height:0;flex:1;overflow:auto;padding:12px 16px}
+.lightbox-media img{display:block;max-width:100%;max-height:calc(100dvh - 205px);height:auto;width:auto;object-fit:contain;border-radius:5px}
+.lightbox-footer{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:15px 22px;border-top:1px solid rgba(255,255,255,.1)}
+.lightbox-footer p{margin:0;font-size:12px;color:#aab8c9;line-height:1.6}
+.lightbox-footer a{color:#a4f4d4;font-weight:650;font-size:12px;white-space:nowrap}
+.lightbox-footer a:hover{text-decoration:underline}
+body.lightbox-open{overflow:hidden}
+@media(max-width:600px){.lightbox-bar,.lightbox-footer{padding:13px 15px}.lightbox-media{padding:10px}.lightbox-footer{align-items:start;flex-direction:column;gap:10px}.lightbox-media img{max-height:calc(100dvh - 235px)}}
