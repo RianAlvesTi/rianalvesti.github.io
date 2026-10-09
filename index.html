@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de Rian Alves: design gráfico, materiais digitais, organização de dados e planilhas. Conheça projetos e estudos práticos.">
+  <meta name="theme-color" content="#101626">
+  <title>Rian Alves | Portfólio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#principal">Pular para o conteúdo</a>
+  <div class="site-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="#inicio" aria-label="Rian Alves, voltar ao início"><span class="brand-mark">RA<span class="brand-dot">.</span></span><span class="brand-name">Rian Alves<span class="brand-sub">portfólio</span></span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Navegação principal">
+        <a href="#projetos">Projetos</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a class="nav-cta" href="#contato">Entrar em contato <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="principal">
+    <section class="hero container" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse" aria-hidden="true"></span> DESIGN, DADOS & TECNOLOGIA</span>
+        <h1>Boas ideias merecem <span>ganhar forma.</span></h1>
+        <p class="hero-description">Sou Rian Alves, estudante de Análise e Desenvolvimento de Sistemas, com formação complementar em Design Gráfico. Reúno projetos de design, organização de documentos e dados, com atenção à clareza e aos detalhes.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="#sobre">Conheça meu perfil <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-tags" aria-label="Áreas de atuação"><span>Canva</span><span>Planilhas</span><span>Documentos</span><span>Design gráfico</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="tile tile-back"><span class="tile-icon">✦</span><span>DESIGN & IDEIAS</span></div>
+        <div class="tile tile-center"><span class="tile-top"><span class="circle-3"></span><span>CRIAR / ORGANIZAR / EVOLUIR</span></span><span class="tile-monogram">R<span>.</span>A</span><span class="tile-bottom">ESTUDO · PRÁTICA · PROJETOS <i></i></span></div>
+        <div class="tile tile-front"><span class="small-symbol">↗</span><span>Detalhes que<br>fazem a diferença</span></div>
+        <div class="star star-1">✳</div><div class="star star-2">✦</div>
+      </div>
+    </section>
+
+    <div class="section-separator" aria-hidden="true"><div class="container separator-inner"><span>CRIATIVIDADE</span><b>✳</b><span>ORGANIZAÇÃO</span><b>✳</b><span>TECNOLOGIA</span></div></div>
+
+    <section class="section section-projects" id="projetos">
+      <div class="container">
+        <div class="section-top"><div><p class="section-label">01 / TRABALHOS SELECIONADOS</p><h2>Projetos que contam <em>minha trajetória.</em></h2></div><p class="section-lead">Uma seleção de artes originais, materiais digitais e um projeto demonstrativo de planilha. Cada trabalho mostra uma habilidade que venho desenvolvendo.</p></div>
+        <div class="filters" role="group" aria-label="Filtrar projetos">
+          <button type="button" class="filter-btn is-active" data-filter="todos" aria-pressed="true">Todos</button>
+          <button type="button" class="filter-btn" data-filter="design" aria-pressed="false">Design gráfico</button>
+          <button type="button" class="filter-btn" data-filter="dados" aria-pressed="false">Planilhas & dados</button>
+        </div>
+        <div class="project-grid" id="project-grid">
+          <article class="project-card project-featured" data-category="dados"><div class="project-image image-stock"><img src="assets/planilha-estoque.webp" alt="Painel da planilha demonstrativa de controle de estoque: indicadores de produtos, unidades e alertas" loading="eager"><span class="image-overlay">PROJETO DEMONSTRATIVO · DADOS FICTÍCIOS</span></div><div class="project-info"><div class="project-tags"><span>Excel</span><span>Planilhas</span><span>Dados fictícios</span></div><div class="project-title-row"><h3>Controle de estoque</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>Planilha com indicadores, fórmulas de estoque, classificação de produtos e alertas de reposição. Projeto desenvolvido para demonstrar organização de dados.</p></div></article>
+          <article class="project-card" data-category="design"><div class="project-image project-image-tall"><img src="assets/post-sorteio.webp" alt="Arte original de sorteio de corte de cabelo em preto e amarelo" loading="lazy"></div><div class="project-info"><div class="project-tags"><span>Canva</span><span>Post Instagram</span></div><div class="project-title-row"><h3>Post para sorteio</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>Arte promocional para redes sociais, com contraste, tipografia expressiva e destaque para a data do sorteio.</p></div></article>
+          <article class="project-card" data-category="design"><div class="project-image"><img src="assets/logo-casamento.webp" alt="Logo de casamento Letícia e Gabriel, com iniciais e ilustrações florais em fundo coral" loading="lazy"></div><div class="project-info"><div class="project-tags"><span>Identidade visual</span><span>Casamento</span></div><div class="project-title-row"><h3>Monograma de casamento</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>Identidade visual delicada com iniciais, elementos florais e composição para materiais de casamento.</p></div></article>
+          <article class="project-card" data-category="design"><div class="project-image"><img src="assets/banner-youtube.webp" alt="Banner de YouTube original com formas azul e roxo, controle de videogame e o nome Rian Alves" loading="lazy"></div><div class="project-info"><div class="project-tags"><span>Canva</span><span>Banner</span></div><div class="project-title-row"><h3>Banner para YouTube</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>Arte digital para canal de jogos, combinando elementos geométricos, identidade gamer e chamadas visuais.</p></div></article>
+          <article class="project-card" data-category="design"><div class="project-image"><img src="assets/cartao-agradecimento.webp" alt="Cartão preto e branco com a frase Obrigado pela compra e ilustração divertida" loading="lazy"></div><div class="project-info"><div class="project-tags"><span>Canva</span><span>Material de loja</span></div><div class="project-title-row"><h3>Cartão de agradecimento</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>Peça simples para acompanhar pedidos e aproximar uma marca de seus clientes.</p></div></article>
+          <article class="project-card" data-category="design"><div class="project-image"><img src="assets/ficha-calistenia.webp" alt="Ficha de inscrição de treino de calistenia com campos de nome, medidas e objetivos" loading="lazy"></div><div class="project-info"><div class="project-tags"><span>Formulário</span><span>Diagramação</span></div><div class="project-title-row"><h3>Ficha de treino de calistenia</h3><span class="project-arrow" aria-hidden="true">↗</span></div><p>Modelo de inscrição com campos organizados para informações do aluno, medidas e objetivos do treino.</p></div></article>
+        </div>
+        <p class="project-note"><span>ⓘ</span> Os exemplos incluem artes e um projeto demonstrativo com dados fictícios. A apresentação não representa avaliações ou contratos de clientes.</p>
+      </div>
+    </section>
+
+    <section class="section services-section" id="servicos">
+      <div class="container"><div class="section-top"><div><p class="section-label">02 / O QUE POSSO DESENVOLVER</p><h2>Habilidades que viram <em>soluções.</em></h2></div><p class="section-lead">Serviços digitais de escopo claro, desenvolvidos de acordo com cada necessidade e com compromisso de revisão.</p></div>
+        <div class="services-grid">
+          <div class="service-card"><span class="service-number">01</span><div class="service-icon" aria-hidden="true">✳</div><h3>Design para redes sociais</h3><p>Posts, banners e materiais visuais com organização das informações e atenção à identidade visual.</p><span class="service-keyword">CANVA / DESIGN</span></div>
+          <div class="service-card"><span class="service-number">02</span><div class="service-icon" aria-hidden="true">▦</div><h3>Planilhas e organização</h3><p>Formatação de tabelas, controles simples, cadastro e organização de dados para uso cotidiano.</p><span class="service-keyword">EXCEL / DADOS</span></div>
+          <div class="service-card"><span class="service-number">03</span><div class="service-icon" aria-hidden="true">▤</div><h3>Documentos e apresentações</h3><p>Digitação, formatação de documentos e preparação de apresentações claras e bem estruturadas.</p><span class="service-keyword">WORD / PDF</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container about-grid"><div class="about-visual" aria-hidden="true"><div class="about-lines"></div><div class="about-monogram">RA<span>↗</span></div><div class="about-ribbon">APRENDER · CRIAR · MELHORAR</div></div><div class="about-content"><p class="section-label">03 / UM POUCO SOBRE MIM</p><h2>Em constante <em>evolução.</em></h2><p>Sou estudante de Análise e Desenvolvimento de Sistemas pela Estácio. Também estudei Informática e Design Gráfico na Microlins e gosto de transformar ideias em projetos concretos.</p><p>Meu portfólio reúne trabalhos visuais, experiências de estudo e projetos demonstrativos. Estou desenvolvendo minha atuação como freelancer, com foco em comunicação clara, aprendizado contínuo e entregas cuidadosas.</p><div class="skills"><span>Design gráfico</span><span>Canva</span><span>Microsoft Excel</span><span>Microsoft Word</span><span>Organização de dados</span></div></div></div>
+    </section>
+
+    <section class="section contact-section" id="contato"><div class="container contact-wrap"><div><p class="section-label">04 / VAMOS CONVERSAR?</p><h2>Tem um projeto <em>em mente?</em></h2><p>Veja meus projetos no GitHub ou conheça meu perfil de freelancer. Avalio demandas conforme o escopo, o prazo e minhas habilidades.</p></div><div class="contact-actions"><a class="button button-dark" href="https://github.com/RianAlvesTi" target="_blank" rel="noopener noreferrer">Ver GitHub <span aria-hidden="true">↗</span></a><a class="button button-outline-dark" href="https://www.99freelas.com.br/user/Rianalves-de-oliveira" target="_blank" rel="noopener noreferrer">Perfil no 99Freelas <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><div class="footer-brand">RA<span>.</span> <small>Portfólio pessoal</small></div><p>© <span id="year">2026</span> Rian Alves. Feito com atenção aos detalhes.</p><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+</body>
+</html>
